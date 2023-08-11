@@ -19,4 +19,5 @@ jobs:
           cache: "npm"
       - run: npm install
       - run: npm run test:unit
-      - run: echo “irinadimcheva”
+      - name: Display softuni username
+        run: echo “irinadimcheva”
